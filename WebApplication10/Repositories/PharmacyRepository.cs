@@ -137,4 +137,10 @@ public class PharmacyRepository : IPharmacyRepository
 
         return patientDataDto;
     }
+    
+    // #TODO pobranie-autoryzacja użytkownika
+    
+    
+    
+    
 }

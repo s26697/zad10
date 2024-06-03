@@ -51,4 +51,13 @@ public class PharmacyService : IPharmacyService
     {
         return await _pharmacyRepository.GetPatientData(IdPatient);
     }
+    
+    //#TODO claim/ generowanie i kodowanie klucza i tokenu. 
+    
+    
+    
+    
+    
+    
+    
 }

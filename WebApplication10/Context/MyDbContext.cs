@@ -5,6 +5,9 @@ namespace WebApplication10.Context;
 
 public class MyDbContext :DbContext
 {
+    
+    
+    
     public MyDbContext()
     {
         
@@ -13,6 +16,7 @@ public class MyDbContext :DbContext
     public MyDbContext(DbContextOptions< MyDbContext> options)
         : base(options)
     {
+       
     }
     
     
@@ -25,6 +29,8 @@ public class MyDbContext :DbContext
     public DbSet<Medicament> Medicaments { get; set; }
     
     public DbSet<Prescription_Medicament> PrescriptionMedicaments { get; set; }
+    
+   
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
